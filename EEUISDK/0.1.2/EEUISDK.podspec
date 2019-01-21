@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'EEUISDK'
-    s.version          = '0.1.1'
+    s.version          = '0.1.2'
     s.summary          = 'A huge description of EEUISDK.So Are you OK?'
     
     # This description is used to generate tags and improve search results.
