@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'EEUISDK'
-    s.version          = '0.1.3'
+    s.version          = '0.1.4'
     s.summary          = 'A huge description of EEUISDK.So Are you OK?'
     
     # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     
     s.source_files = 'EEUISDK/Classes/**/*'
-    # spec.vendored_frameworks = 'EEUISDK/Frameworks/App.framework','EEUISDK/Frameworks/Flutter.framework'
+    spec.vendored_frameworks = 'EEUISDK/Frameworks/App.framework','EEUISDK/Frameworks/Flutter.framework'
     # s.resource_bundles = {
     #   'EEUISDK' => ['EEUISDK/Assets/*.png']
     # }
