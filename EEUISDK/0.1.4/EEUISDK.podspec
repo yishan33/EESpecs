@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     
     s.source_files = 'EEUISDK/Classes/**/*'
-    spec.vendored_frameworks = 'EEUISDK/Frameworks/App.framework','EEUISDK/Frameworks/Flutter.framework'
+    s.vendored_frameworks = 'EEUISDK/Frameworks/App.framework','EEUISDK/Frameworks/Flutter.framework'
     # s.resource_bundles = {
     #   'EEUISDK' => ['EEUISDK/Assets/*.png']
     # }
